@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Raleway,Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.main-section{
+    background-color: #636C79;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+ 
+.nav{
+
+    padding: 30px;
+    padding-right: 0;
+    margin-left: 50px;
+}
+
+.nav-items{
+    float: right; 
+}
+
+
+
+.nav-item{     
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items i{
+    visibility: hidden;
+}
+.nav-items .btn{     
+    padding: 10px 50px;
+    border: 0.5px solid white;
+    background-color: #636C79;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: 25px;
+    
+}
+
+.team-img img{  
+    width: 380px; height: 467px; 
+    object-fit: cover;  
+    border-radius: 10px;
+}
+
+
+.content{
+    margin-left: 10%;
+    color: white;
+    /* border: 1px solid red; */
+    margin-right: 10%;
+    text-align: left;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.team p{
+    margin: 30px;
+    margin-left: 0px;
+    line-height: 30px;
+    font-size: 22px;
+    
+    
+}
+
+
+.team .content .btn{
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white; 
+    position: relative;
+    bottom: 50px;
+    left: 315px;
+    /* border: 1px solid red; */
+
+}
+
+.content input{
+    padding: 18px 150px;
+    
+}
+/* border: 2px solid red; */
+.content  input[type="email"]::placeholder {
+    
+    position: relative;
+    right:120px; 
+    border: none;
+}
+
+.team-video{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: x-large;
+    text-align: center;
+    /* border: 1px solid red; */
+    
+} 
+
+.values-container{
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.values-container p{
+    
+    font-size: 20px;
+}
+
+
+.values-container  .count{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+.team-video img{
+
+    height: 530px;
+    width: 1020px;
+    margin: 3% 0;
+}
+
+
+/****************** web design  */
+
+.web-design 
+{
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: x-large;
+    text-align: center;
+    
+    
+}
+
+.web-design .heading{
+ /* background-color: red ; */
+ margin: 30px 0;
+ font-size: 30px;
+    
+
+}
+
+.web-design p{
+    font-size: 20px;
+}
+.web-design .head2
+{ 
+    font-size: 39px;
+    margin: 3% 0;
+    width: 600px;
+
+    
+    
+}
+
+
+
+.web-container{
+    display: flex;
+    text-align: left;
+    width: 550px;
+    margin-right: 60px;
+    line-height: 35px;
+}
+ 
+
+
+.web-container .item1{
+    margin: 20% 0;
+    width: 500px;
+}
+.web-design-img img{
+    height: 450px; 
+    width: 440px;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}   
+
+
+
+.web-container .item1 .btn{
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 20px 0;
+}
+
+
+
+/****************** .marketing  */
+
+.marketing{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:7% ;
+
+}
+
+.marketing .item1 img{
+    height: 520px; 
+    width: 400px;
+}
+
+
+.marketing .item2 .btn{
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 20px 0;
+}
+
+.marketing .item2{
+    margin: 10% 0;
+    width: 500px;
+    margin-left: 9%;
+
+}
+
+.marketing .head2
+{ 
+    font-size: 39px;
+    margin: 3% 0;
+    width: 450px;
+
+    
+    
+}
+
+.marketing  p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+/****************** always-judge */
+
+
+.always-judge{
+    display: flex;  
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:7% ;
+}
+
+
+.always-judge .item2 img{
+    
+    height: 500px; 
+    width: 500px;
+    margin-left: 70px;
+      
+     
+}
+
+.always-judge .item1 {
+    
+    margin: 10% 0;
+}
+
+
+.always-judge .item1 .btn{
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 20px 0;
+}
+
+.always-judge .head2
+{ 
+    font-size: 39px;
+    margin: 3% 0;
+    width: 450px;
+
+    
+    
+}
+
+.always-judge  p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*********************** meet-team top-section*/
+
+
+
+.meet-team .top-section{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:7% ;
+
+}
+
+
+
+.meet-team .top-section h2{
+    font-size: 35px;
+    
+
+}
+
+
+.meet-team .top-section p{
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+
+/*********************** meet-team bottom-section*/
+
+  .bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:7% ;
+    
+  justify-content: center;
+}
+
+ .bottom-section img{
+    height: 386px;
+     width: 287px; 
+}
+
+.bottom-section h3{
+   font-size: 20px;
+   margin: 15px 0;
+}
+
+
+.bottom-section p{
+    font-size: 15px;
+    line-height: 20px;
+    width: 250px;
+ }
+ 
+
+ .team-btn {
+    
+    display: flex;
+    justify-content: center;
+ }
+ .team-btn button{ 
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 20px 0; 
+    margin-bottom: 10%;
+ }
+ 
+
+
+ 
+/*********************** footer */
+
+
+
+.footer{
+    background-color: #151615;
+    color: white;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 8% ;
+    padding-top: 3%;
+
+    
+}
+
+
+.icons .img1 img{
+    width: 100px;
+    margin: -30px;
+}
+
+
+.icons .img2 img{
+    width: 300px;
+    margin-left: 500px;
+}
+
+ 
+
+.containerfive{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 5%;
+    line-height: 35px;
+    grid-gap: 30px;
+}
+
+.containerfive h5{
+    font-size: large;
+}
+.containerfive .item ul{
+    list-style-type: none;
+}
+
+p{
+    font-weight:400; 
+}

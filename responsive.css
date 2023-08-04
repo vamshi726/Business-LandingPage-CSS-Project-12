@@ -1,0 +1,135 @@
+
+@media only screen and (max-width: 800px) {
+
+    .main-section{
+    background-color: #636C79;
+         margin: 0;
+         padding: 0;
+         padding-bottom: 150px;
+
+    }
+
+    
+.nav-items{
+    visibility: hidden;
+    height: 2px;
+    
+}
+
+ 
+
+.nav-items i{
+    visibility: visible;
+    float: right;
+    /* margin: 10%; */
+}
+
+ 
+
+
+.nav{ 
+    padding: 5%; 
+
+}
+
+.logo{
+    /* margin:10%; */
+}
+
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-img img{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.content h1{
+    font-size: 25px;
+    margin: 5% 0;
+    /* border: 1px solid red; */
+
+}
+
+
+
+.content  p{ 
+    font-size: 15px;
+    margin: 0;
+    
+}
+
+
+
+.content input{
+    padding: 18px 80px;  
+    
+}
+.content input{
+    padding: 18px 80px;    
+    margin: 4% 0;
+}
+
+.team .content .btn{
+    background-color: #8bb7a2;
+    padding: 15px 39px;
+    border: none;
+    color: white; 
+    position: relative;
+    bottom: 65px;
+    left: 172px;
+    border: 1px solid rgb(83, 6, 6);
+
+}
+
+
+.team-video{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: large;
+    text-align: center;
+    
+} 
+
+
+
+.values-container p{
+    
+    font-size: 15px;
+}
+
+.values-container  .count{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.team-video img{
+
+    height: 230px;
+    width: 380px;
+}
+.web-design .heading{
+    /* background-color: red ; */
+    font-size: 25px;
+       
+   
+   }
+
+   .bottom-section img{
+    height: 286px;
+     width: 187px 
+}
+
+
+
+
+
+
+}
